@@ -46,7 +46,7 @@ export const ProjectListing: React.FC = () => {
     },
     {
       title: "This Website",
-      githubURL: "https://www.youtube.com/",
+      githubURL: "https://github.com/bossadapt/bossadapt.github.io",
       tags: ["TypeScript", "Vite", "CSS", "React"],
     },
   ];

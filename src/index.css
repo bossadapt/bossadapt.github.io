@@ -80,7 +80,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   font-size: 30px;
-  width: 100%;
+  width: 90%;
   margin: 0%;
   padding-left: 10px;
   padding-bottom: 20px;
@@ -169,6 +169,19 @@ textarea {
   height: fit-content;
   flex-direction: column;
 }
+@media (min-width: 588px) {
+  .welcome-contents {
+    display: "flex";
+    flex-direction: column;
+    margin-right: 40%;
+  }
+}
+@media (max-width: 587px) {
+  .welcome-contents {
+    display: "flex";
+    flex-direction: column;
+  }
+}
 .to {
   height: 50px;
   font-size: 40px;
@@ -198,4 +211,13 @@ textarea {
   margin-bottom: 20px;
   color: var(--secondary-front-color);
   background-color: var(--main-background-color);
+}
+@media (min-width: 588px) {
+  .contacts {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 587px) {
+  .contacts {
+  }
 }

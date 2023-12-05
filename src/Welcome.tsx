@@ -16,16 +16,16 @@ export const Welcome: React.FC = () => {
   function delaydText() {
     console.log("delay ran");
     setStyles({
-      to: { width: "100%" },
-      the: { width: "100%" },
-      website: { width: "100%" },
+      to: { width: "60%" },
+      the: { width: "60%" },
+      website: { width: "60%" },
     });
   }
   useEffect(() => {
     delaydText();
   }, []);
   return (
-    <div style={{ marginRight: "40%" }}>
+    <div>
       <div className="welcome-to-the-website">
         <div>
           <button className="to" style={styles.to}>
@@ -43,14 +43,8 @@ export const Welcome: React.FC = () => {
           </button>
         </div>
       </div>
-      <hr />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-        }}
-      >
+      <div className="welcome-contents">
+        <hr />
         <p style={{ fontSize: "30px" }}>
           Thanks for visiting my tiny corner of the web. My name is Devin
           Phillips, I enjoy coding and videogames. This website was made trying

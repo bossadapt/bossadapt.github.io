@@ -5,6 +5,7 @@ import TalkItOut from "./assets/TalkItOut.png";
 import TFTRolls from "./assets/TFTRolls.png";
 import VideoHijack from "./assets/VideoHijack.png";
 import LeagueRolls from "./assets/LeagueRolls.png";
+import SteamRecommendation from "./assets/SteamRecommendation.png";
 const imageList = new Map([
   ["HnS", HnS],
   ["Imporoved Startup", ImporovedStartup],
@@ -13,6 +14,7 @@ const imageList = new Map([
   ["TFT Rolls", TFTRolls],
   ["Video Hijack", VideoHijack],
   ["League Rolls", LeagueRolls],
+  ["Steam Recommendations", SteamRecommendation],
 ]);
 
 interface ProjectCardProps {

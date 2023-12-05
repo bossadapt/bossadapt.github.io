@@ -1,6 +1,6 @@
 export const Contact: React.FC = () => {
   return (
-    <div style={{ marginLeft: "40%" }}>
+    <div className="contacts">
       <hr></hr>
       <p style={{ fontSize: "30px" }}>Email: Devinphillips20@gmail.com</p>
       <p style={{ fontSize: "30px" }}>

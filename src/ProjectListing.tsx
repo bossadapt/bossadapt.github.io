@@ -15,6 +15,11 @@ export const ProjectListing: React.FC = () => {
       tags: ["Java", "Android Studio", "Google Places", "Firebase"],
     },
     {
+      title: "Steam Recommendations",
+      githubURL: "https://github.com/bossadapt/steamRecommendation",
+      tags: ["Rust", "Data Science",  "Statistics", "Data Visualization", "csv"],
+    },
+    {
       title: "League Rolls",
       githubURL: "https://github.com/bossadapt/leagueRolls",
       tags: ["Python", "Machine Learning", "CSV", "Local Storage"],

@@ -1,20 +1,11 @@
 import { useEffect, useState } from "react";
 export const Welcome: React.FC = () => {
-  window.onscroll = function () {
-    var scrollTop =
-      window.pageYOffset ||
-      (document.documentElement || document.body.parentNode || document.body)
-        .scrollTop;
-    console.log("scrolled");
-    console.log(scrollTop);
-  };
   const [styles, setStyles] = useState({
     to: { width: "0%" },
     the: { width: "0%" },
     website: { width: "0%" },
   });
   function delaydText() {
-    console.log("delay ran");
     setStyles({
       to: { width: "60%" },
       the: { width: "60%" },

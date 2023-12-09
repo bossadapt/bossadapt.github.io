@@ -36,7 +36,7 @@ export const Welcome: React.FC = () => {
       </div>
       <div className="welcome-contents">
         <hr />
-        <p style={{ fontSize: "30px" }}>
+        <p style={{ fontSize: "30px", marginLeft: "8px" }}>
           Thanks for visiting my tiny corner of the web. My name is Devin
           Phillips, I enjoy coding and videogames. This website was made trying
           out frontend developing. Please enjoy your stay.

@@ -217,9 +217,18 @@ textarea {
 @media (min-width: 588px) {
   .contacts {
     margin-left: 40%;
+    font-size: 30px;
   }
 }
 @media (max-width: 587px) {
   .contacts {
+    margin-left: 0%;
+    font-size: 30px;
+  }
+}
+@media (max-width: 362px) {
+  .contacts {
+    margin-left: 0%;
+    font-size: 25px;
   }
 }

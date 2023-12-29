@@ -6,6 +6,7 @@ import TFTRolls from "./assets/TFTRolls.png";
 import VideoHijack from "./assets/VideoHijack.png";
 import LeagueRolls from "./assets/LeagueRolls.png";
 import SteamRecommendation from "./assets/SteamRecommendation.png";
+import TheLastHope from "./assets/TheLastHope.png";
 const imageList = new Map([
   ["HnS", HnS],
   ["Imporoved Startup", ImporovedStartup],
@@ -15,6 +16,7 @@ const imageList = new Map([
   ["Video Hijack", VideoHijack],
   ["League Rolls", LeagueRolls],
   ["Steam Recommendations", SteamRecommendation],
+  ["The Last Hope", TheLastHope],
 ]);
 
 interface ProjectCardProps {

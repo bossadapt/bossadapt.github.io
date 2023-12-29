@@ -17,7 +17,7 @@ export const ProjectListing: React.FC = () => {
     {
       title: "Steam Recommendations",
       githubURL: "https://github.com/bossadapt/steamRecommendation",
-      tags: ["Rust", "Data Science",  "Statistics", "Data Visualization", "csv"],
+      tags: ["Rust", "Data Science", "Statistics", "Data Visualization", "csv"],
     },
     {
       title: "League Rolls",
@@ -53,6 +53,11 @@ export const ProjectListing: React.FC = () => {
       title: "This Website",
       githubURL: "https://github.com/bossadapt/bossadapt.github.io",
       tags: ["TypeScript", "Vite", "CSS", "React"],
+    },
+    {
+      title: "The Last Hope",
+      githubURL: "https://github.com/bossadapt/the_last_hope",
+      tags: ["Rust", "Game Dev", "Animation", "Pathfinding"],
     },
   ];
   const allProjects = projects.map((project) => {

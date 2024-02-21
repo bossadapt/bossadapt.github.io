@@ -59,6 +59,16 @@ export const ProjectListing: React.FC = () => {
       githubURL: "https://github.com/bossadapt/the_last_hope",
       tags: ["Rust", "Game Dev", "Animation", "Pathfinding"],
     },
+    {
+      title: "Basic Rolls",
+      githubURL: "https://github.com/bossadapt/basic-rolls",
+      tags: ["Tauri", "Next.JS", "Rust", "Typescript", "SQLite"],
+    },
+    {
+      title: "Steam Crawler",
+      githubURL: "https://github.com/bossadapt/steam_crawler",
+      tags: ["Rust", "Scraper", "Crawler", "SteamAPI", "SQLite"],
+    },
   ];
   const allProjects = projects.map((project) => {
     return (

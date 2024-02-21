@@ -7,6 +7,8 @@ import VideoHijack from "./assets/VideoHijack.png";
 import LeagueRolls from "./assets/LeagueRolls.png";
 import SteamRecommendation from "./assets/SteamRecommendation.png";
 import TheLastHope from "./assets/TheLastHope.png";
+import BasicRolls from "./assets/BasicRolls.png";
+import SteamCrawler from "./assets/SteamCrawler.png";
 const imageList = new Map([
   ["HnS", HnS],
   ["Imporoved Startup", ImporovedStartup],
@@ -17,6 +19,8 @@ const imageList = new Map([
   ["League Rolls", LeagueRolls],
   ["Steam Recommendations", SteamRecommendation],
   ["The Last Hope", TheLastHope],
+  ["Basic Rolls", BasicRolls],
+  ["Steam Crawler", SteamCrawler],
 ]);
 
 interface ProjectCardProps {

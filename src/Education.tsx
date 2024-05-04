@@ -85,8 +85,8 @@ export const Education: React.FC = () => {
         }}
       >
         <h3 style={{ width: "100%", textAlign: "center" }}>
-          Currently showing {classesShown.length} courses, totaling to{" "}
-          {creditCount} credits with an GPA of {GPA.toPrecision(3)}
+          Currently showing {classesShown.length} course{"("}s{")"}, totaling to{" "}
+          {creditCount} credit{"("}s{")"} with a GPA of {GPA.toPrecision(3)}
         </h3>
         <div style={{ display: "flex", flexDirection: "row" }}></div>
         <table>

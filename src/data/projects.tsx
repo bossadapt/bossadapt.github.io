@@ -12,22 +12,22 @@ export const projects: projectLayout[] = [
   {
     title: "Steam Recommendations",
     githubURL: "https://github.com/bossadapt/steamRecommendation",
-    tags: ["Rust", "Data Science", "Statistics", "Data Visualization", "csv"],
+    tags: ["Rust", "Data Science", "Statistics", "Data Visualization", "CSV"],
   },
   {
     title: "League Rolls",
     githubURL: "https://github.com/bossadapt/leagueRolls",
-    tags: ["Python", "Machine Learning", "CSV", "Local Storage"],
+    tags: ["Python", "Machine Learning", "CSV"],
   },
   {
     title: "Imporoved Startup",
     githubURL: "https://github.com/bossadapt/Improved-Startup",
-    tags: ["Python", "PyQt5", "Local Storage"],
+    tags: ["Python", "PyQt5"],
   },
   {
     title: "Video Hijack",
     githubURL: "https://github.com/bossadapt/VideoHijack",
-    tags: ["Python", "Tkinter", "Local Storage"],
+    tags: ["Python", "Tkinter", "OpenCV", "Pillow"],
   },
   {
     title: "TFT Rolls",

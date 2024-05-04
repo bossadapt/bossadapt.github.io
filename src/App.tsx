@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ProjectListing } from "./ProjectListing";
 import { Welcome } from "./Welcome";
-import { Contact } from "./Contact";
+import { Education } from "./Education";
 
 export function App() {
   const focusedIndex = "focused-index";
@@ -9,10 +9,10 @@ export function App() {
   const [index, setIndex] = useState({
     welcomeClass: unfocusedIndex,
     projectsClass: focusedIndex,
-    contactClass: unfocusedIndex,
+    educationClass: unfocusedIndex,
     body: <ProjectListing />,
   });
-  const bodyList = [<Welcome />, <ProjectListing />, <Contact />];
+  const bodyList = [<Welcome />, <ProjectListing />, <Education />];
   function changeIndexFocus(index: number) {
     const currentFocuses: string[] = [];
     for (
@@ -29,7 +29,7 @@ export function App() {
     setIndex({
       welcomeClass: currentFocuses[0],
       projectsClass: currentFocuses[1],
-      contactClass: currentFocuses[2],
+      educationClass: currentFocuses[2],
       body: bodyList[index],
     });
   }
@@ -49,10 +49,10 @@ export function App() {
           Projects
         </button>
         <button
-          className={index.contactClass}
+          className={index.educationClass}
           onClick={() => changeIndexFocus(2)}
         >
-          Contact
+          Education
         </button>
       </div>
       <div>{index.body}</div>

@@ -1,0 +1,19 @@
+thead {
+  text-align: center;
+  background-color: black;
+  color: var(--secondary-front-color);
+}
+tbody {
+  text-align: center;
+  background-color: darkslategrey;
+  color: black;
+}
+.searchField {
+  width: 95%;
+  padding: 0%;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: auto;
+  margin-bottom: auto;
+}

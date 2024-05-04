@@ -41,7 +41,12 @@ export const Welcome: React.FC = () => {
         >
           Thanks for visiting my tiny corner of the web. My name is Devin
           Phillips, I enjoy coding and videogames. This website was made trying
-          out frontend developing. Please enjoy your stay.
+          out frontend developing. Please enjoy your stay. You can find me on{" "}
+          <a href="https://github.com/bossadapt">Github</a>,{" "}
+          <a href="https://www.linkedin.com/in/devin-phillips-040699191/">
+            Linkedin
+          </a>{" "}
+          or reach me via email at devinphillips20@gmail.com .
         </p>
       </div>
     </div>

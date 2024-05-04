@@ -43,7 +43,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="gradient-on-image">
         <div className="tags">
           {tags.map((catagory) => {
-            return <div>{catagory}</div>;
+            return <div key={catagory}>{catagory}</div>;
           })}
         </div>
         <h3>{title}</h3>

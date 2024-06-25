@@ -9,18 +9,20 @@ import SteamRecommendation from "./assets/SteamRecommendation.png";
 import TheLastHope from "./assets/TheLastHope.png";
 import BasicRolls from "./assets/BasicRolls.png";
 import SteamCrawler from "./assets/SteamCrawler.png";
+import SteamRecAI from "./assets/SteamRecAI.png";
 const imageList = new Map([
+  ["SteamRec AI", SteamRecAI],
+  ["Steam Crawler", SteamCrawler],
+  ["Basic Rolls", BasicRolls],
+  ["League Rolls", LeagueRolls],
   ["HnS", HnS],
   ["Imporoved Startup", ImporovedStartup],
   ["League Versus", LeagueVersus],
   ["Talk It Out", TalkItOut],
   ["TFT Rolls", TFTRolls],
   ["Video Hijack", VideoHijack],
-  ["League Rolls", LeagueRolls],
   ["Steam Recommendations", SteamRecommendation],
   ["The Last Hope", TheLastHope],
-  ["Basic Rolls", BasicRolls],
-  ["Steam Crawler", SteamCrawler],
 ]);
 
 interface ProjectCardProps {

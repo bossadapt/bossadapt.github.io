@@ -64,4 +64,9 @@ export const projects: projectLayout[] = [
     githubURL: "https://github.com/bossadapt/steam_crawler",
     tags: ["Rust", "Scraper", "Crawler", "SteamAPI", "SQLite"],
   },
+  {
+    title: "SteamRec AI",
+    githubURL: "https://github.com/bossadapt/SteamRec-AI",
+    tags: ["Rocket.rs", "Flask", "Neural Networks", "API building"],
+  },
 ];

@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import linkdin from "./assets/welcome/linkedin.png";
+import github from "./assets/welcome/github.png";
+import gmail from "./assets/welcome/gmail.png";
 export const Welcome: React.FC = () => {
   const [styles, setStyles] = useState({
     to: { width: "0%" },
@@ -40,14 +43,33 @@ export const Welcome: React.FC = () => {
           style={{ fontSize: "30px", marginLeft: "20px", marginRight: "20px" }}
         >
           Thanks for visiting my tiny corner of the web. My name is Devin
-          Phillips, I enjoy coding and videogames. You can find me on{" "}
-          <a href="https://github.com/bossadapt">Github</a>,{" "}
-          <a href="https://www.linkedin.com/in/devin-phillips-040699191/">
-            Linkedin
-          </a>{" "}
-          or reach me via email at devinphillips20@gmail.com. Please enjoy your
-          stay.
+          Phillips, I enjoy coding and videogames. Please enjoy your stay.
         </p>
+        <div className="socialContainer">
+          <a
+            className="socialWrapper"
+            href="https://www.linkedin.com/in/devin-phillips-040699191"
+            target="_blank"
+          >
+            <img src={linkdin} className="social"></img>
+          </a>
+          <hr />
+          <a
+            className="socialWrapper"
+            href="https://github.com/bossadapt"
+            target="_blank"
+          >
+            <img src={github} className="social"></img>
+          </a>
+          <hr />
+          <a
+            className="socialWrapper"
+            href="mailto: devinphillips20@gmail.com"
+            target="_blank"
+          >
+            <img src={gmail} className="social"></img>
+          </a>
+        </div>
       </div>
     </div>
   );

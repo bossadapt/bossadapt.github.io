@@ -214,6 +214,30 @@ textarea {
   color: var(--secondary-front-color);
   background-color: var(--main-background-color);
 }
+.socialContainer {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-direction: row;
+  object-fit: contain;
+}
+.socialWrapper {
+  max-width: 25%;
+  max-height: 25%;
+}
+.social {
+  max-width: 100%;
+  max-height: 100%;
+  filter: gray;
+  /* IE6-9 */
+  filter: grayscale(100%);
+  /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1);
+}
+.social:hover {
+  -webkit-filter: none;
+  filter: none;
+}
 @media (min-width: 588px) {
   .contacts {
     margin-left: 40%;

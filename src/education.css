@@ -17,3 +17,13 @@ tbody {
   margin-top: auto;
   margin-bottom: auto;
 }
+@media (max-width: 980px) {
+table{
+  font-size: medium;
+}
+}
+@media (max-width: 380px) {
+  table{
+    font-size: small;
+  }
+  }

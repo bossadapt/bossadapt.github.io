@@ -10,6 +10,7 @@ import TheLastHope from "./assets/project/TheLastHope.png";
 import BasicRolls from "./assets/project/BasicRolls.png";
 import SteamCrawler from "./assets/project/SteamCrawler.png";
 import SteamRecAI from "./assets/project/SteamRecAI.png";
+import AntColonySim from "./assets/project/AntColonySim.png";
 const imageList = new Map([
   ["SteamRec AI", SteamRecAI],
   ["Steam Crawler", SteamCrawler],
@@ -23,6 +24,7 @@ const imageList = new Map([
   ["Video Hijack", VideoHijack],
   ["Steam Recommendations", SteamRecommendation],
   ["The Last Hope", TheLastHope],
+  ["ant-colony-sim", AntColonySim],
 ]);
 
 interface ProjectCardProps {

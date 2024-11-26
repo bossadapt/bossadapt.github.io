@@ -57,7 +57,7 @@ export const projects: projectLayout[] = [
   {
     title: "Basic Rolls",
     githubURL: "https://github.com/bossadapt/basic-rolls",
-    tags: ["Tauri", "Next.JS", "Rust", "Typescript", "SQLite"],
+    tags: ["Rust","Typescript","Tauri", "Next.JS", "Typescript", "SQLite"],
   },
   {
     title: "Steam Crawler",
@@ -67,6 +67,11 @@ export const projects: projectLayout[] = [
   {
     title: "SteamRec AI",
     githubURL: "https://github.com/bossadapt/SteamRec-AI",
-    tags: ["Rocket.rs", "Flask", "Neural Networks", "API building"],
+    tags: ["Rust","Python","Typescipt","Rocket.rs", "Flask", "Neural Networks", "API building"],
+  },
+  {
+    title: "ant-colony-sim",
+    githubURL: "https://github.com/bossadapt/ant-colony-sim",
+    tags: ["Java","Typescript", "Spring Boot", "OOP", "API building"],
   },
 ];

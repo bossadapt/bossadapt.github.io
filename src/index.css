@@ -1,7 +1,7 @@
 :root {
-  --main-background-color: rgb(33, 33, 33);
+  --main-background-color: rgb(20, 20, 20);
   --secondary-background-color: rgb(50, 50, 50);
-  --secondary-front-color: rgb(13, 115, 119);
+  --secondary-front-color: rgb(126, 237, 241);
   --main-front-color: rgb(255, 255, 255);
   --curve-pixels: 25px;
 }
@@ -22,6 +22,9 @@ body {
   margin-bottom: 20px;
   padding-top: 0%;
   margin-top: 0%;
+}
+.website-index > button{
+  color: var(--secondary-front-color);
 }
 .focused-index {
   height: 100%;
@@ -88,7 +91,7 @@ body {
   margin: 0%;
   padding-left: 10px;
   padding-bottom: 20px;
-  color: #0d7377;
+  color: var(--secondary-front-color);
   border-radius: 0px 0px var(--curve-pixels) var(--curve-pixels);
 }
 .no-style,

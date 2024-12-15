@@ -12,6 +12,4 @@ COPY . .
 
 RUN npm run build
 
-EXPOSE 80
-
 CMD [ "serve","-l","8080" ,"-s", "dist" ]

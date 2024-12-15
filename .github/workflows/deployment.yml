@@ -35,15 +35,10 @@ jobs:
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
         command_timeout: 30m
         script: |
-          pwd
           cd ${{secrets.WORK_DIR}}
-          pwd
           git checkout ${{secrets.MAIN_BRANCH}}
-          pwd
           npm run build 
-          pwd
           echo ${{secrets.USERPWD}} | sudo -S systemctl reload nginx
-          pwd
           exit
     
     - name: cleanup

@@ -38,7 +38,7 @@ jobs:
           pwd
           cd ${{secrets.WORK_DIR}}
           pwd
-          git pull
+          git checkout ${{secrets.MAIN_BRANCH}}
           pwd
           npm run build 
           pwd

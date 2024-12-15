@@ -47,7 +47,7 @@ export const projects: projectLayout[] = [
   {
     title: "This Website",
     githubURL: "https://github.com/bossadapt/bossadapt.github.io",
-    tags: ["TypeScript", "Vite", "CSS", "React"],
+    tags: ["TypeScript", "Vite", "CSS", "React","Github Actions"],
   },
   {
     title: "The Last Hope",
@@ -72,6 +72,11 @@ export const projects: projectLayout[] = [
   {
     title: "ant-colony-sim",
     githubURL: "https://github.com/bossadapt/ant-colony-sim",
-    tags: ["Java","Typescript", "Spring Boot", "OOP", "API building"],
+    tags: ["Java","Typescript","Docker", "Spring Boot",  "API building"],
+  },
+  {
+    title: "Advent of Code 2024",
+    githubURL: "https://github.com/bossadapt/AdventOfCode2024",
+    tags: ["GO","C++","Puzzles", "Parallelism","Competition"],
   },
 ];

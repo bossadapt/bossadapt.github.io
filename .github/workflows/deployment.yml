@@ -22,13 +22,21 @@ concurrency:
 
 jobs:
   deploy_server:
-    name: run pull
+    name: bossadapt.org
     runs-on: ubuntu-latest
 
-    #dont need to install ssh keys, already did that on local machine
     steps:
-    - name: connect and pull
+    - name: install ssh keys
+      run: |
+        install -m 600 -D /dev/null ~/.ssh/id_rsa
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        ssh-keyscan -H ${{ secrets.SSH_HOST }} > ~/.ssh/known_hosts
+
+    - name: pulling,building and serving
       run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd ${{secrets.WORK_DIR}} && git pull && npm run build && echo ${{secrets.USERPWD}} | sudo -S systemctl reload nginx && exit"
+    
+    - name: cleanup
+      run: rm -rf ~/.ssh
   # Single deploy job since we're just deploying
   deploy_pages:
     environment:

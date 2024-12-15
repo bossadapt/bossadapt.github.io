@@ -34,11 +34,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
         command_timeout: 30m
-        scripts: | 
-          git pull
-          npm run build 
-          echo ${{secrets.USERPWD}} | sudo -S systemctl reload nginx
-          exit
+        run: git pull && npm run build && echo ${{secrets.USERPWD}} | sudo -S systemctl reload nginx && exit
     
     - name: cleanup
       run: rm -rf ~/.ssh

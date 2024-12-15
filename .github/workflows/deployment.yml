@@ -28,7 +28,7 @@ jobs:
     #dont need to install ssh keys, already did that on local machine
     steps:
     - name: connect and pull
-      run: ssh ${{ secrets.SSH_user}}@${{ secrets.SSH_HOST }} "cd ${{secrets.WORK_DIR}} && git pull && npm run build && echo ${{secrets.USERPWD}} | sudo -S systemctl reload nginx && exit"
+      run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd ${{secrets.WORK_DIR}} && git pull && npm run build && echo ${{secrets.USERPWD}} | sudo -S systemctl reload nginx && exit"
   # Single deploy job since we're just deploying
   deploy_pages:
     environment:

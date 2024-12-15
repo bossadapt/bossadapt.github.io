@@ -37,9 +37,13 @@ jobs:
         script: |
           pwd
           cd ${{secrets.WORK_DIR}}
+          pwd
           git pull
+          pwd
           npm run build 
+          pwd
           echo ${{secrets.USERPWD}} | sudo -S systemctl reload nginx
+          pwd
           exit
     
     - name: cleanup

@@ -34,7 +34,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
         command_timeout: 30m
-        scripts: |
+        script: |
           pwd
           cd ${{secrets.WORK_DIR}}
           git pull

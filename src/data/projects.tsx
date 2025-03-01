@@ -7,7 +7,7 @@ export const projects: projectLayout[] = [
   {
     title: "Display Settings Plus",
     githubURL: "https://github.com/bossadapt/Display-Settings-Plus",
-    tags: ["Rust", "React.ts", "Tauri", "X11", "Linux"],
+    tags: ["Rust", "React.ts", "Tauri", "X11", "Linux", "Test"],
   },
   {
     title: "HnS",

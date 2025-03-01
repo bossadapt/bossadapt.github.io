@@ -5,6 +5,11 @@ export interface projectLayout {
 }
 export const projects: projectLayout[] = [
   {
+    title: "Display Settings Plus",
+    githubURL: "https://github.com/bossadapt/Display-Settings-Plus",
+    tags: ["Rust", "React.ts", "Tauri", "X11", "Linux"],
+  },
+  {
     title: "HnS",
     githubURL: "https://github.com/bossadapt/HnS",
     tags: ["Java", "Android Studio", "Google Places", "Firebase"],
@@ -47,7 +52,7 @@ export const projects: projectLayout[] = [
   {
     title: "This Website",
     githubURL: "https://github.com/bossadapt/bossadapt.github.io",
-    tags: ["TypeScript", "Vite", "CSS", "React","Github Actions"],
+    tags: ["TypeScript", "Vite", "CSS", "React", "Github Actions"],
   },
   {
     title: "The Last Hope",
@@ -57,7 +62,7 @@ export const projects: projectLayout[] = [
   {
     title: "Basic Rolls",
     githubURL: "https://github.com/bossadapt/basic-rolls",
-    tags: ["Rust","Typescript","Tauri", "Next.JS", "Typescript", "SQLite"],
+    tags: ["Rust", "Typescript", "Tauri", "Next.JS", "Typescript", "SQLite"],
   },
   {
     title: "Steam Crawler",
@@ -67,16 +72,16 @@ export const projects: projectLayout[] = [
   {
     title: "SteamRec AI",
     githubURL: "https://github.com/bossadapt/SteamRec-AI",
-    tags: ["Rust","Python","Typescipt","Rocket.rs", "Flask", "Neural Networks", "API building"],
+    tags: ["Rust", "Python", "Typescipt", "Rocket.rs", "Flask", "Neural Networks", "API building"],
   },
   {
     title: "ant-colony-sim",
     githubURL: "https://github.com/bossadapt/ant-colony-sim",
-    tags: ["Java","Typescript","Docker", "Spring Boot",  "API building"],
+    tags: ["Java", "Typescript", "Docker", "Spring Boot", "API building"],
   },
   {
     title: "Advent of Code 2024",
     githubURL: "https://github.com/bossadapt/AdventOfCode2024",
-    tags: ["GO","C++","Puzzles", "Parallelism","Competition"],
+    tags: ["GO", "C++", "Puzzles", "Parallelism", "Competition"],
   },
 ];

@@ -36,7 +36,7 @@ jobs:
         command_timeout: 30m
         script: |
           cd ${{secrets.WORK_DIR}}
-          git fetch
+          git pull
           npm run build 
           echo ${{secrets.USERPWD}} | sudo -S systemctl reload nginx
           exit

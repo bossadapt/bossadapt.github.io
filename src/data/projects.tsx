@@ -10,9 +10,48 @@ export const projects: projectLayout[] = [
     tags: ["Rust", "React.ts", "Tauri", "X11", "Linux"],
   },
   {
-    title: "HnS",
-    githubURL: "https://github.com/bossadapt/HnS",
-    tags: ["Java", "Android Studio", "Google Places", "Firebase"],
+    title: "Basic Game Backend",
+    githubURL: "https://github.com/bossadapt/BasicGameBackend",
+    tags: ["C#", ".NET", "API", "Cookies", "Authentication"],
+  },
+  {
+    title: "SteamRec AI",
+    githubURL: "https://github.com/bossadapt/SteamRec-AI",
+    tags: [
+      "Rust",
+      "Python",
+      "Typescipt",
+      "Rocket.rs",
+      "Flask",
+      "Neural Networks",
+      "API building",
+    ],
+  },
+  {
+    title: "Steam Crawler",
+    githubURL: "https://github.com/bossadapt/steam_crawler",
+    tags: ["Rust", "Scraper", "Crawler", "SteamAPI", "SQLite"],
+  },
+
+  {
+    title: "ant-colony-sim",
+    githubURL: "https://github.com/bossadapt/ant-colony-sim",
+    tags: ["Java", "Typescript", "Docker", "Spring Boot", "API building"],
+  },
+  {
+    title: "Advent of Code 2024",
+    githubURL: "https://github.com/bossadapt/AdventOfCode2024",
+    tags: ["GO", "C++", "Puzzles", "Parallelism", "Competition"],
+  },
+  {
+    title: "This Website",
+    githubURL: "https://github.com/bossadapt/bossadapt.github.io",
+    tags: ["TypeScript", "Vite", "CSS", "React", "Github Actions"],
+  },
+  {
+    title: "League Versus",
+    githubURL: "https://github.com/bossadapt/LeagueVersus",
+    tags: ["Javascript", "Node.js", "Riot API", "Discord Bot", "MySQL"],
   },
   {
     title: "Steam Recommendations",
@@ -39,20 +78,11 @@ export const projects: projectLayout[] = [
     githubURL: "https://github.com/bossadapt/TFTRolls",
     tags: ["Python", "Computer Vision", "PyAutoGUI"],
   },
-  {
-    title: "League Versus",
-    githubURL: "https://github.com/bossadapt/LeagueVersus",
-    tags: ["Javascript", "Node.js", "Riot API", "Discord Bot", "MySQL"],
-  },
+
   {
     title: "Talk It Out",
     githubURL: "https://github.com/bossadapt/TalkItOut",
     tags: ["Java", "Android Studio", "Room Database"],
-  },
-  {
-    title: "This Website",
-    githubURL: "https://github.com/bossadapt/bossadapt.github.io",
-    tags: ["TypeScript", "Vite", "CSS", "React", "Github Actions"],
   },
   {
     title: "The Last Hope",
@@ -65,23 +95,8 @@ export const projects: projectLayout[] = [
     tags: ["Rust", "Typescript", "Tauri", "Next.JS", "Typescript", "SQLite"],
   },
   {
-    title: "Steam Crawler",
-    githubURL: "https://github.com/bossadapt/steam_crawler",
-    tags: ["Rust", "Scraper", "Crawler", "SteamAPI", "SQLite"],
-  },
-  {
-    title: "SteamRec AI",
-    githubURL: "https://github.com/bossadapt/SteamRec-AI",
-    tags: ["Rust", "Python", "Typescipt", "Rocket.rs", "Flask", "Neural Networks", "API building"],
-  },
-  {
-    title: "ant-colony-sim",
-    githubURL: "https://github.com/bossadapt/ant-colony-sim",
-    tags: ["Java", "Typescript", "Docker", "Spring Boot", "API building"],
-  },
-  {
-    title: "Advent of Code 2024",
-    githubURL: "https://github.com/bossadapt/AdventOfCode2024",
-    tags: ["GO", "C++", "Puzzles", "Parallelism", "Competition"],
+    title: "HnS",
+    githubURL: "https://github.com/bossadapt/HnS",
+    tags: ["Java", "Android Studio", "Google Places", "Firebase"],
   },
 ];

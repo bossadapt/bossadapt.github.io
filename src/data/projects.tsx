@@ -5,6 +5,11 @@ export interface projectLayout {
 }
 export const projects: projectLayout[] = [
   {
+    title: "To Do Organized",
+    githubURL: "https://github.com/bossadapt/ToDoOrganized",
+    tags: ["Ruby", "Rails", "Websocket", "Cookies", "Authentication"],
+  },
+  {
     title: "Display Settings Plus",
     githubURL: "https://github.com/bossadapt/Display-Settings-Plus",
     tags: ["Rust", "React.ts", "Tauri", "X11", "Linux"],

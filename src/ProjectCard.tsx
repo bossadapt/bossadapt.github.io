@@ -14,6 +14,8 @@ import AntColonySim from "./assets/project/AntColonySim.png";
 import AdventOfCode2024 from "./assets/project/AdventOfCode2024.png";
 import DisplaySettingsPlus from "./assets/project/DisplaySettingsPlus.png";
 import BasicGameBackend from "./assets/project/BasicGameBackend.png";
+import ToDoOrganized from "./assets/project/ToDoOrganized.png";
+
 const imageList = new Map([
   ["SteamRec AI", SteamRecAI],
   ["Steam Crawler", SteamCrawler],
@@ -31,6 +33,7 @@ const imageList = new Map([
   ["Advent of Code 2024", AdventOfCode2024],
   ["Display Settings Plus", DisplaySettingsPlus],
   ["Basic Game Backend", BasicGameBackend],
+  ["To Do Organized", ToDoOrganized],
 ]);
 
 interface ProjectCardProps {

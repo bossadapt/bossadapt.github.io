@@ -44,6 +44,11 @@ export const projects: projectLayout[] = [
     tags: ["Java", "Typescript", "Docker", "Spring Boot", "API building"],
   },
   {
+    title: "Mini Connect 4",
+    githubURL: "https://github.com/bossadapt/miniConnect4",
+    tags: ["C++", "TCP", "Networking", "Multiplayer", "Game"],
+  },
+  {
     title: "Advent of Code 2024",
     githubURL: "https://github.com/bossadapt/AdventOfCode2024",
     tags: ["GO", "C++", "Puzzles", "Parallelism", "Competition"],

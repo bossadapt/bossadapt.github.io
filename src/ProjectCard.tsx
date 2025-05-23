@@ -15,7 +15,7 @@ import AdventOfCode2024 from "./assets/project/AdventOfCode2024.png";
 import DisplaySettingsPlus from "./assets/project/DisplaySettingsPlus.png";
 import BasicGameBackend from "./assets/project/BasicGameBackend.png";
 import ToDoOrganized from "./assets/project/ToDoOrganized.png";
-
+import MiniConnect4 from "./assets/project/MiniConnect4.png";
 const imageList = new Map([
   ["SteamRec AI", SteamRecAI],
   ["Steam Crawler", SteamCrawler],
@@ -34,6 +34,7 @@ const imageList = new Map([
   ["Display Settings Plus", DisplaySettingsPlus],
   ["Basic Game Backend", BasicGameBackend],
   ["To Do Organized", ToDoOrganized],
+  ["Mini Connect 4", MiniConnect4],
 ]);
 
 interface ProjectCardProps {

@@ -16,6 +16,8 @@ import DisplaySettingsPlus from "./assets/project/DisplaySettingsPlus.png";
 import BasicGameBackend from "./assets/project/BasicGameBackend.png";
 import ToDoOrganized from "./assets/project/ToDoOrganized.png";
 import MiniConnect4 from "./assets/project/MiniConnect4.png";
+import CoPaint from "./assets/project/CoPaint.png";
+
 const imageList = new Map([
   ["SteamRec AI", SteamRecAI],
   ["Steam Crawler", SteamCrawler],
@@ -35,6 +37,7 @@ const imageList = new Map([
   ["Basic Game Backend", BasicGameBackend],
   ["To Do Organized", ToDoOrganized],
   ["Mini Connect 4", MiniConnect4],
+  ["CoPaint", CoPaint],
 ]);
 
 interface ProjectCardProps {

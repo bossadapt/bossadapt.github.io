@@ -44,6 +44,11 @@ export const projects: projectLayout[] = [
     tags: ["Java", "Typescript", "Docker", "Spring Boot", "API building"],
   },
   {
+    title: "CoPaint",
+    githubURL: "https://github.com/bossadapt/copaint",
+    tags: ["C++", "TCP", "Networking", "Multiplayer"],
+  },
+  {
     title: "Mini Connect 4",
     githubURL: "https://github.com/bossadapt/miniConnect4",
     tags: ["C++", "TCP", "Networking", "Multiplayer", "Game"],

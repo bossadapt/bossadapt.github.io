@@ -44,6 +44,11 @@ export const projects: projectLayout[] = [
     tags: ["Java", "Typescript", "Docker", "Spring Boot", "API building"],
   },
   {
+    title: "Blog",
+    githubURL: "https://bossadapt.org/blogs/",
+    tags: ["Hugo", "Markdown", "Justfile"],
+  },
+  {
     title: "CoPaint",
     githubURL: "https://github.com/bossadapt/copaint",
     tags: ["C++", "TCP", "Networking", "Multiplayer"],

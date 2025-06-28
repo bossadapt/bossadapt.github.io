@@ -18,6 +18,7 @@ import ToDoOrganized from "./assets/project/ToDoOrganized.png";
 import MiniConnect4 from "./assets/project/MiniConnect4.png";
 import CoPaint from "./assets/project/CoPaint.png";
 import Blog from "./assets/project/Blog.png";
+import CompRemote from "./assets/project/CompRemote.png";
 
 const imageList = new Map([
   ["SteamRec AI", SteamRecAI],
@@ -40,6 +41,7 @@ const imageList = new Map([
   ["Mini Connect 4", MiniConnect4],
   ["CoPaint", CoPaint],
   ["Blog", Blog],
+  ["Comp Remote", CompRemote],
 ]);
 
 interface ProjectCardProps {
@@ -61,9 +63,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
     >
       <div className="gradient-on-image">
         <div className="tags">
-          {tags.map((catagory) => {
-            return <div key={catagory}>{catagory}</div>;
-          })}
+          {tags
+            .sort((a, b) => a.length - b.length)
+            .map((catagory) => {
+              return <div key={catagory}>{catagory}</div>;
+            })}
         </div>
         <h3>{title}</h3>
       </div>

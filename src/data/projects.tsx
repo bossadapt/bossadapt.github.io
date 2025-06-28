@@ -5,6 +5,11 @@ export interface projectLayout {
 }
 export const projects: projectLayout[] = [
   {
+    title: "Comp Remote",
+    githubURL: "https://github.com/bossadapt/compremote",
+    tags: ["Vue", "Typescript", "Python", "Websockets", "API"],
+  },
+  {
     title: "To Do Organized",
     githubURL: "https://github.com/bossadapt/ToDoOrganized",
     tags: ["Ruby", "Rails", "Websocket", "Cookies", "Authentication"],

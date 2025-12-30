@@ -19,7 +19,7 @@ import MiniConnect4 from "./assets/project/MiniConnect4.png";
 import CoPaint from "./assets/project/CoPaint.png";
 import Blog from "./assets/project/Blog.png";
 import CompRemote from "./assets/project/CompRemote.png";
-
+import Tetris from "./assets/project/Tetris.png";
 const imageList = new Map([
   ["SteamRec AI", SteamRecAI],
   ["Steam Crawler", SteamCrawler],
@@ -42,6 +42,7 @@ const imageList = new Map([
   ["CoPaint", CoPaint],
   ["Blog", Blog],
   ["Comp Remote", CompRemote],
+  ["Tetris", Tetris],
 ]);
 
 interface ProjectCardProps {
@@ -54,7 +55,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   githubURL,
   tags,
 }) => (
-  <a href={githubURL} className="no-style" target="_blank">
+  <a href={githubURL} key={title} className="no-style" target="_blank">
     <div
       className="project-card"
       style={{

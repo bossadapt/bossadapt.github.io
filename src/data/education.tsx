@@ -348,4 +348,25 @@ export let classesTaken: classTaken[] = [
     credits: 4,
     grade: Grade.A,
   },
+  {
+    name: "Intro to Neural Networks",
+    course: "CSC-470",
+    school: School.University,
+    credits: 4,
+    grade: Grade.A,
+  },
+  {
+    name: "Software Engineering Capstone",
+    course: "CSC-478",
+    school: School.University,
+    credits: 4,
+    grade: Grade.A,
+  },
+  {
+    name: "Algorithms and Computation",
+    course: "CSC-482",
+    school: School.University,
+    credits: 4,
+    grade: Grade.A,
+  },
 ];

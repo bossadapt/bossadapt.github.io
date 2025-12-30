@@ -5,6 +5,11 @@ export interface projectLayout {
 }
 export const projects: projectLayout[] = [
   {
+    title: "Tetris",
+    githubURL: "https://bossadapt.org/tetris/",
+    tags: ["React", "Typescript", "Python"],
+  },
+  {
     title: "Comp Remote",
     githubURL: "https://github.com/bossadapt/compremote",
     tags: ["Vue", "Typescript", "Python", "Websockets", "API"],
@@ -30,7 +35,7 @@ export const projects: projectLayout[] = [
     tags: [
       "Rust",
       "Python",
-      "Typescipt",
+      "Typescript",
       "Rocket.rs",
       "Flask",
       "Neural Networks",
@@ -117,7 +122,7 @@ export const projects: projectLayout[] = [
   {
     title: "Basic Rolls",
     githubURL: "https://github.com/bossadapt/basic-rolls",
-    tags: ["Rust", "Typescript", "Tauri", "Next.JS", "Typescript", "SQLite"],
+    tags: ["Rust", "Typescript", "Tauri", "Next.JS", "SQLite"],
   },
   {
     title: "HnS",
